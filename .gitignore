@@ -1,0 +1,4 @@
+.settings/
+target/*
+!/target/team2059-scouting-1.0.jar
+.DS_Store
