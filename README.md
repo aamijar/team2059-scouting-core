@@ -1,7 +1,8 @@
 # team2059-scouting-core
-<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/aamijar/team2059-scouting-core/Maven%20Build">
 
-This repo has the original java classes that are being used in the FRC scouting app. These include team, match, and competition.
+<a href="https://github.com/aamijar/team2059-scouting-core/actions"><img alt="Maven Build" src="https://github.com/aamijar/team2059-scouting-core/workflows/Maven Build/badge.svg"></a>
+
+This repo has the original java classes that are being used in the FRC scouting app. These include Team, Match, and Competition.
 
 This repo uses the maven tool for building a jar file which is refrenced in the lib folder of the team2059-scouting-android repo.
 
