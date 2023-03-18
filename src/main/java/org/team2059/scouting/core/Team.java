@@ -4,14 +4,14 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 import org.team2059.scouting.core.frc2020.IrMatch;
+import org.team2059.scouting.core.frc2023.CuMatch;
 
-
-public class Team implements Serializable{
+public class Team implements Serializable {
 
     /**
      *
      */
-    
+
     private String teamNumber;
     private String teamName;
     private String homeDistrict;
@@ -73,6 +73,13 @@ public class Team implements Serializable{
         return irMatches;
     }
 
+    public ArrayList<CuMatch> getCuMatches() {
+        ArrayList<CuMatch> cuMatches = new ArrayList<CuMatch>();
+        for (Match m : matches)
+            cuMatches.add((CuMatch) m);
+        return cuMatches;
+    }
+
     public String getbyteMapString() {
         return byteMapString;
     }
@@ -111,15 +118,6 @@ public class Team implements Serializable{
         this.overallRank = overallRank;
     }
 
-    /*Android Parceable methods*/
-
-
-
-    
-
-
-
-    
-
+    /* Android Parceable methods */
 
 }
